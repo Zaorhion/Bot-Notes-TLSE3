@@ -1,0 +1,17 @@
+{
+  "name": "notes-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "file-system": "^2.2.2",
+    "lodash": "^4.17.21",
+    "puppeteer": "^13.1.3"
+  }
+}

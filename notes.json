@@ -1,0 +1,55 @@
+{
+  "COEFF_RESSOURCES": 0.6,
+  "COEFF_SAE": 0.4,
+  "COEFF_BY_SAE": 0.38,
+  "COEFF_FOLIO": 0.02,
+  "coeffMoyennes": [
+    { "code": "BFTZ2R01", "coeff": [0.2, 0.4, 0.4] },
+    { "code": "BFTZ2R02", "coeff": [0.5, 0.5] },
+    { "code": "BFTZ2R03", "coeff": [1] },
+    { "code": "BFTZ2R04", "coeff": [0.28, 0.12, 0.6] },
+    { "code": "BFTZ2R05", "coeff": [0.6, 0.4] },
+    { "code": "BFTZ2R06", "coeff": [0.5, 0.5] },
+    { "code": "BFTZ2R07", "coeff": [0.5, 0.5] },
+    { "code": "BFTZ2R08", "coeff": [0.7, 0.3] },
+    { "code": "BFTZ2R09", "coeff": [0.4, 0.6] },
+    { "code": "BFTZ2R10", "coeff": [0.5, 0.5] },
+    { "code": "BFTZ2R11", "coeff": [1] },
+    { "code": "BFTZ2R12", "coeff": [0.5, 0.5] },
+    { "code": "BFTZ2R13", "coeff": [0.5, 0.5] },
+    { "code": "BFTZ2R14", "coeff": [1] }
+  ],
+
+  "coeffBlocsWithoutSAE": [
+    {
+      "name": "2.1 Dev1",
+      "index": [0, 1, 2, 12],
+      "coeff": [0.21, 0.21, 0.12, 0.06]
+    },
+    {
+      "name": "2.2 Dev2",
+      "index": [0, 3, 6, 8],
+      "coeff": [0.15, 0.12, 0.21, 0.12]
+    },
+    {
+      "name": "2.3 Sys",
+      "index": [3, 4, 11, 12],
+      "coeff": [0.36, 0.15, 0.06, 0.03]
+    },
+    {
+      "name": "2.4 Bdd",
+      "index": [5, 7, 9, 11],
+      "coeff": [0.36, 0.15, 0.06, 0.03]
+    },
+    {
+      "name": "2.5 Prj",
+      "index": [1, 2, 6, 9, 11, 12],
+      "coeff": [0.03, 0.06, 0.06, 0.3, 0.06, 0.09]
+    },
+    {
+      "name": "2.6 Equ",
+      "index": [1, 10, 11, 12, 13],
+      "coeff": [0.04, 0.17, 0.17, 0.11, 0.11]
+    }
+  ]
+}
