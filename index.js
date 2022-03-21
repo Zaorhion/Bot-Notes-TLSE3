@@ -1,4 +1,4 @@
-const Discord = require("discord.js"); // Discord Api
+const Discord = require("discord.js"); // Discord API
 
 const { client } = require("./utils/client"); // Bot Info
 
